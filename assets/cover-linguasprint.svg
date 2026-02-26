@@ -1,0 +1,65 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="40" x2="1180" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4E3"/>
+      <stop offset="1" stop-color="#EFFFFA"/>
+    </linearGradient>
+    <linearGradient id="accentA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF8B3D"/>
+      <stop offset="1" stop-color="#FFB36A"/>
+    </linearGradient>
+    <linearGradient id="accentB" x1="1" y1="0" x2="0" y2="1">
+      <stop stop-color="#00A38F"/>
+      <stop offset="1" stop-color="#6CE5D3"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1280" height="720" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="22" flood-color="#B7834A" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" rx="32" fill="url(#bg)"/>
+
+  <circle cx="122" cy="98" r="168" fill="#FF9B4A" opacity="0.18"/>
+  <circle cx="1150" cy="620" r="208" fill="#00B49D" opacity="0.16"/>
+  <circle cx="1040" cy="118" r="110" fill="#FFD29D" opacity="0.45"/>
+
+  <g filter="url(#shadow)">
+    <rect x="56" y="66" width="1168" height="588" rx="34" fill="#FFFEFA"/>
+  </g>
+
+  <rect x="86" y="96" width="368" height="528" rx="28" fill="#FFF9EF" stroke="#EEDCC8" stroke-width="2"/>
+
+  <rect x="116" y="136" width="308" height="188" rx="20" fill="url(#accentA)"/>
+  <text x="270" y="212" text-anchor="middle" fill="#fff" font-family="Space Grotesk, Manrope, sans-serif" font-size="52" font-weight="700">hello</text>
+  <text x="270" y="258" text-anchor="middle" fill="#fff" opacity="0.9" font-family="Manrope, sans-serif" font-size="28" font-weight="700">привет</text>
+
+  <rect x="116" y="356" width="148" height="62" rx="14" fill="#FFFFFF" stroke="#E9D7C6"/>
+  <rect x="276" y="356" width="148" height="62" rx="14" fill="#D5F5EC"/>
+  <rect x="116" y="432" width="148" height="62" rx="14" fill="#FFFFFF" stroke="#E9D7C6"/>
+  <rect x="276" y="432" width="148" height="62" rx="14" fill="#FFFFFF" stroke="#E9D7C6"/>
+
+  <text x="190" y="396" text-anchor="middle" fill="#6D5C4F" font-family="Manrope, sans-serif" font-size="24" font-weight="700">пока</text>
+  <text x="350" y="396" text-anchor="middle" fill="#0D9B68" font-family="Manrope, sans-serif" font-size="24" font-weight="800">привет</text>
+  <text x="190" y="472" text-anchor="middle" fill="#6D5C4F" font-family="Manrope, sans-serif" font-size="24" font-weight="700">извини</text>
+  <text x="350" y="472" text-anchor="middle" fill="#6D5C4F" font-family="Manrope, sans-serif" font-size="24" font-weight="700">спасибо</text>
+
+  <text x="518" y="178" fill="#6D5C4F" font-family="Manrope, sans-serif" font-size="18" font-weight="700" letter-spacing="2">TELEGRAM MINI APP</text>
+  <text x="518" y="266" fill="#2F1F16" font-family="Space Grotesk, Manrope, sans-serif" font-size="94" font-weight="700">LinguaSprint</text>
+  <text x="518" y="324" fill="#5B4A3E" font-family="Manrope, sans-serif" font-size="34" font-weight="700">Английский как игра: карточки, лиги и бонусы</text>
+
+  <rect x="518" y="364" width="214" height="62" rx="14" fill="#FFE2C1"/>
+  <rect x="744" y="364" width="178" height="62" rx="14" fill="#D0F4EA"/>
+  <rect x="934" y="364" width="230" height="62" rx="14" fill="#FFF2DE" stroke="#F3DDBF"/>
+
+  <text x="625" y="403" text-anchor="middle" fill="#A45112" font-family="Manrope, sans-serif" font-size="28" font-weight="800">Карточки</text>
+  <text x="833" y="403" text-anchor="middle" fill="#0F7D6D" font-family="Manrope, sans-serif" font-size="28" font-weight="800">Лиги</text>
+  <text x="1049" y="403" text-anchor="middle" fill="#8D612F" font-family="Manrope, sans-serif" font-size="28" font-weight="800">Daily бонус</text>
+
+  <rect x="518" y="466" width="646" height="128" rx="22" fill="url(#accentB)"/>
+  <text x="550" y="536" fill="#FFFFFF" font-family="Manrope, sans-serif" font-size="38" font-weight="800">Созвон с преподавателем после оплаты</text>
+
+  <g transform="translate(1088 508)">
+    <circle cx="38" cy="38" r="38" fill="#FFFFFF" opacity="0.24"/>
+    <path d="M24 52V24h24v28H24Zm6-7h12V31H30v14Zm24 3-8-5v-10l8-5 8 5v10l-8 5Z" fill="#FFFFFF"/>
+  </g>
+</svg>
